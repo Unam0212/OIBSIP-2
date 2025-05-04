@@ -59,17 +59,18 @@ header {
     font-weight: 650;
 }
 .content a {
-font-size: 20px;
+font-size: 30px;
 color: #fff;
 text-decoration: none;
 font-weight: 600;
 margin-left: 40px;
 border-bottom: 3px solid transparent;
-transition: .6s;
-top: -50px;
+transition: .7s;
+top: 80px;
 }
 .content a:hover{
-background-color: #fff;
+background-color: cornflowerblue;
+top: -80px;
 }
 
 .home {
@@ -149,4 +150,12 @@ transition: .6s;
     object-fit: cover;
     top: -100px;
     
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: var(all-black-black-business-desk);
+    color: #fff;
 }
